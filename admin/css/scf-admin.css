@@ -1,0 +1,20 @@
+/**
+ * CT Core - SCF Admin Styles
+ *
+ * Custom styles for Smart Custom Fields integration
+ */
+
+.ct-core-scf-field-group {
+  margin-bottom: 1rem;
+}
+
+.ct-core-scf-field-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.ct-core-scf-field-description {
+  color: #666;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}

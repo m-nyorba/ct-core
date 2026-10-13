@@ -1,0 +1,24 @@
+{
+  "name": "mnor/ct-core",
+  "description": "Premium WordPress plugin for theme extensions with licensing and modular architecture",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "mnor"
+    }
+  ],
+  "require": {
+    "php": ">=7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "mnor\\": "includes/"
+    }
+  },
+  "scripts": {
+    "i18n:make-pot": "wp i18n make-pot . languages/ct-core.pot --domain=ct-core --package-name='CT Core' --ignore-domain --exclude=vendor,node_modules,build,freemius",
+    "i18n:make-json": "wp i18n make-json languages --no-purge"
+  }
+}

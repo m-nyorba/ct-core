@@ -1,0 +1,58 @@
+.wp-block-ct-core-services-pricelist {
+  .wp-block-table {
+    margin-top: 1.25rem;
+  }
+  .wp-block-table :where(figcaption) {
+    font-size: var(--wp--preset--font-size--x-small, 0.875rem);
+  }
+
+  .ct-services-pricelist__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0 0 1rem;
+  }
+
+  .ct-services-pricelist__filters span {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-size: 0.85em;
+  }
+
+  /* Styles for services pricelist block in editor */
+  .ct-services-pricelist__notice {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    padding: var(--wpds-dimension-padding-md, 12px);
+    margin-bottom: var(--wpds-dimension-margin-md, 16px);
+    border: var(--wpds-border-width-xs, 1px) solid
+      var(--wp-components-notice-border-color, #e1bc7c);
+    border-radius: var(--wpds-border-radius-xs, 1px);
+    background-color: var(--wp-components-notice-background-color, #fff7e1);
+    font-size: var(--wpds-typography-font-size-md, 13px);
+    line-height: var(--wpds-typography-line-height-sm, 20px);
+  }
+
+  .ct-services-pricelist__group-row td {
+    background-color: #f0f0f0;
+  }
+
+  .ct-services-pricelist__group-title {
+    font-size: var(--wp--preset--font-size--large);
+    padding: var(--wp--preset--spacing--xx-small, 8px)
+      var(--wp--preset--spacing--x-small, 12px);
+  }
+
+  .ct-services-pricelist__subgroup-row td {
+    background-color: #fafafa;
+  }
+
+  .ct-services-pricelist__subgroup-title {
+    font-size: var(--wp--preset--font-size--medium);
+    padding: var(--wp--preset--spacing--xxx-small, 6px)
+      var(--wp--preset--spacing--x-small, 12px);
+  }
+}

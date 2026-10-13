@@ -1,0 +1,565 @@
+# Copyright (C) 2026 mnor
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CT Core 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ct-core\n"
+"Last-Translator: MNor <mnyorba@gmail.com>\n"
+"Language-Team: MNor <mnyorba@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-11T16:46:32+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 3.0.0-alpha\n"
+"X-Domain: ct-core\n"
+
+#. Plugin Name of the plugin
+#: ct-core.php:3
+#: includes/class-ct-core-admin.php:54
+#: includes/class-ct-core-admin.php:55
+msgid "CT Core"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: ct-core.php:4
+msgid "https://mnor.top/ct-core"
+msgstr ""
+
+#. Description of the plugin
+#: ct-core.php:5
+msgid "Core blocks functionality for WordPress block themes"
+msgstr ""
+
+#. Author of the plugin
+#: ct-core.php:7
+msgid "mnor"
+msgstr ""
+
+#. Author URI of the plugin
+#: ct-core.php:8
+msgid "https://mnor.top"
+msgstr ""
+
+#: admin/views/dashboard.php:16
+msgid "Welcome to CT Core"
+msgstr ""
+
+#: admin/views/dashboard.php:18
+msgid "Extensions and functionality for themes that support the CT Core plugin."
+msgstr ""
+
+#: admin/views/dashboard.php:25
+msgid "Theme Compatibility"
+msgstr ""
+
+#: admin/views/dashboard.php:35
+msgid "Theme"
+msgstr ""
+
+#: admin/views/dashboard.php:36
+msgid "Status"
+msgstr ""
+
+#: admin/views/dashboard.php:49
+msgid "Supported"
+msgstr ""
+
+#: admin/views/dashboard.php:52
+msgid "Not Supported"
+msgstr ""
+
+#: admin/views/dashboard.php:62
+msgid "Active Features"
+msgstr ""
+
+#: admin/views/dashboard.php:63
+msgid "The following features are available for your theme:"
+msgstr ""
+
+#: admin/views/dashboard.php:65
+msgid "Advanced customization options"
+msgstr ""
+
+#: admin/views/dashboard.php:66
+msgid "Additional blocks and patterns"
+msgstr ""
+
+#: admin/views/dashboard.php:67
+msgid "Extended theme features"
+msgstr ""
+
+#: admin/views/dashboard.php:73
+msgid "For this plugin to work, it is recommended to use a theme that supports integration with CT Core."
+msgstr ""
+
+#: admin/views/import-export.php:25
+msgid "Export Services"
+msgstr ""
+
+#: admin/views/import-export.php:26
+msgid "You can export all service items to a CSV file."
+msgstr ""
+
+#: admin/views/import-export.php:41
+msgid "Export Services CSV"
+msgstr ""
+
+#: admin/views/import-export.php:47
+#: admin/views/import-export.php:55
+msgid "Import Services"
+msgstr ""
+
+#: admin/views/import-export.php:48
+msgid "Upload a CSV file containing all service elements to update and replace existing ones."
+msgstr ""
+
+#: admin/views/settings.php:18
+#: includes/class-ct-core-admin.php:65
+#: includes/class-ct-core-admin.php:66
+msgid "Settings"
+msgstr ""
+
+#. translators: %d: number of services shown
+#: build/services-pricelist/render.php:123
+#: build/services-pricelist/index.js:321
+#: build/services-pricelist/index.js:293
+#, php-format,js-format
+msgid "Showing first %d services. Select filters to see more."
+msgstr ""
+
+#: build/services-pricelist/render.php:140
+#: includes/class-ct-core-services-cpt.php:61
+#: build/services-pricelist/index.js:327
+#: build/services-pricelist/index.js:306
+msgid "Service"
+msgstr ""
+
+#: build/services-pricelist/render.php:141
+#: includes/class-ct-core-services-cpt.php:433
+#: build/services-pricelist/index.js:329
+#: build/services-pricelist/index.js:307
+msgid "Price"
+msgstr ""
+
+#: build/services-pricelist/render.php:202
+#: build/services-pricelist/index.js:333
+#: build/services-pricelist/index.js:318
+msgid "Services not found."
+msgstr ""
+
+#: inc/blocks.php:24
+msgid "CT Core Blocks"
+msgstr ""
+
+#: inc/functions-pricing.php:15
+msgctxt "currency label"
+msgid "UAH"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:74
+#: includes/class-ct-core-admin.php:75
+msgid "Import / Export"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:97
+msgid "SVG Upload Support Settings"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:104
+msgid "SVG Upload Support"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:112
+msgid "CF7 Phone Mask Settings"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:120
+msgid "Enable Phone Mask in CF7 Plugin Fields"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:128
+msgid "Phone Mask Pattern"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:136
+msgid "Phone Mask Digits"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:172
+msgid "Setting up support for loading SVG files."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:180
+msgid "The Contact Form 7 plugin is inactive. Install and activate the plugin to use the phone number mask settings."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:184
+msgid "Configure Contact Form 7 phone mask options."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:189
+msgid "To correctly apply a mask to the contact form, you need to add the <code>phone-mask</code> class to the phone number input field."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:203
+msgid "Enable SVG upload support."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:217
+msgid "Enable Contact Form 7 phone mask."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:243
+msgid "Use X characters as digit placeholders, for example +38 (XXX) XXX-XX-XX."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:261
+msgid "Enter the required number of digits for phone input fields."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:352
+msgid "No service entries found to export."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:385
+#: includes/class-ct-core-admin.php:386
+msgid "Uncategorized"
+msgstr ""
+
+#: includes/class-ct-core-admin.php:450
+msgid "No import file uploaded."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:454
+msgid "Invalid nonce. Please try again."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:459
+msgid "Upload error occurred."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:464
+msgid "Unable to open uploaded file."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:470
+msgid "Invalid CSV format."
+msgstr ""
+
+#: includes/class-ct-core-admin.php:480
+msgid "Invalid CSV header columns."
+msgstr ""
+
+#. translators: %d: number of imported service items.
+#: includes/class-ct-core-admin.php:614
+#, php-format
+msgid "Imported %d service items."
+msgstr ""
+
+#: includes/class-ct-core-api.php:67
+msgid "Premium Blocks"
+msgstr ""
+
+#: includes/class-ct-core-api.php:68
+msgid "Access to exclusive block patterns and blocks"
+msgstr ""
+
+#: includes/class-ct-core-api.php:76
+msgid "Demo Import"
+msgstr ""
+
+#: includes/class-ct-core-api.php:77
+msgid "One-click demo content import"
+msgstr ""
+
+#: includes/class-ct-core-api.php:85
+msgid "Advanced Customization"
+msgstr ""
+
+#: includes/class-ct-core-api.php:86
+msgid "Extended theme customization options"
+msgstr ""
+
+#: includes/class-ct-core-cf7-phone-mask.php:110
+msgid "Please enter a complete phone number."
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:60
+#: includes/class-ct-core-services-cpt.php:70
+msgid "Services"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:62
+msgid "Add New Service"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:63
+msgid "Edit Service"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:64
+msgid "New Service"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:65
+msgid "All Services"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:66
+msgid "View Service"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:67
+msgid "Search Services"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:68
+msgid "No services found"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:69
+msgid "No services found in Trash"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:135
+#: includes/class-ct-core-services-cpt.php:145
+msgid "Appliance Types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:136
+msgid "Appliance Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:137
+msgid "Search Appliance Types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:138
+msgid "All Appliance Types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:139
+msgid "Parent Appliance Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:140
+msgid "Parent Appliance Type:"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:141
+msgid "Edit Appliance Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:142
+msgid "Update Appliance Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:143
+msgid "Add New Appliance Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:144
+msgid "New Appliance Type Name"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:162
+#: includes/class-ct-core-services-cpt.php:172
+msgid "Work Types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:163
+msgid "Work Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:164
+msgid "Search Work Types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:165
+msgid "All Work Types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:166
+msgid "Parent Work Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:167
+msgid "Parent Work Type:"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:168
+msgid "Edit Work Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:169
+msgid "Update Work Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:170
+msgid "Add New Work Type"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:171
+msgid "New Work Type Name"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:190
+#: includes/class-ct-core-services-cpt.php:198
+msgid "Price Units"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:191
+#: includes/class-ct-core-services-cpt.php:461
+msgid "Price Unit"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:192
+msgid "Search Price Units"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:193
+msgid "All Price Units"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:194
+msgid "Edit Price Unit"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:195
+msgid "Update Price Unit"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:196
+msgid "Add New Price Unit"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:197
+msgid "New Price Unit Name"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:279
+msgid "Formatted service price string"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:305
+msgid "Service appliance types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:330
+msgid "Service work types"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:343
+msgid "Service Price"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:405
+#: includes/class-ct-core-services-cpt.php:428
+#: includes/class-ct-core-services-cpt.php:438
+msgid "Price from"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:411
+msgid "Fixed price"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:417
+msgid "Price range"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:423
+msgid "Custom text"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:440
+msgid "Price to"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:445
+#: includes/class-ct-core-services-cpt.php:451
+msgid "Custom price text"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:463
+msgid "— Select Price Unit —"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:479
+#: includes/class-ct-core-services-cpt.php:549
+#: includes/class-ct-core-services-cpt.php:573
+msgid "Translation"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:481
+msgid "Service description"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:505
+msgid "Service title"
+msgstr ""
+
+#: includes/class-ct-core-services-cpt.php:528
+msgid "Description"
+msgstr ""
+
+#. translators: 1: minimum price with currency, 2: price unit suffix
+#: includes/class-ct-core-services-helper.php:147
+#, php-format
+msgid "from %1$s%2$s"
+msgstr ""
+
+#. translators: 1: minimum price, 2: maximum price with currency, 3: price unit suffix
+#: includes/class-ct-core-services-helper.php:156
+#, php-format
+msgid "from %1$s to %2$s%3$s"
+msgstr ""
+
+#: build/services-pricelist/index.js:276
+#: build/services-pricelist/index.js:291
+#: build/services-pricelist/index.js:233
+#: build/services-pricelist/index.js:259
+msgid "All appliance types"
+msgstr ""
+
+#: build/services-pricelist/index.js:277
+#: build/services-pricelist/index.js:300
+#: build/services-pricelist/index.js:238
+#: build/services-pricelist/index.js:266
+msgid "All work types"
+msgstr ""
+
+#: build/services-pricelist/index.js:287
+#: build/services-pricelist/index.js:253
+msgid "Price list settings"
+msgstr ""
+
+#: build/services-pricelist/index.js:289
+#: build/services-pricelist/index.js:255
+msgid "Appliance type"
+msgstr ""
+
+#: build/services-pricelist/index.js:298
+#: build/services-pricelist/index.js:264
+msgid "Work type"
+msgstr ""
+
+#: build/services-pricelist/index.js:331
+#: build/services-pricelist/index.js:313
+msgid "Loading list..."
+msgstr ""
+
+#: build/services-pricelist/index.js:382
+#: build/services-pricelist/index.js:400
+msgid "Add price notice..."
+msgstr ""
+
+#: build/services-pricelist/block.json
+msgctxt "block title"
+msgid "Service price list"
+msgstr ""
+
+#: build/services-pricelist/block.json
+msgctxt "block description"
+msgid "Display a table of prices for services with filtering for equipment and type of work"
+msgstr ""

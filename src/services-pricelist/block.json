@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ct-core/services-pricelist",
+	"version": "1.0.0",
+	"title": "Service price list",
+	"category": "ct-core",
+	"icon": "list-view",
+	"description": "Display a table of prices for services with filtering for equipment and type of work",
+	"example": {},
+	"supports": {
+		"html": false,
+		"innerBlocks": true
+	},
+	"attributes": {
+		"applianceTerm": {
+			"type": "string",
+			"default": ""
+		},
+		"workTerm": {
+			"type": "string",
+			"default": ""
+		},
+		"priceNotice": {
+			"type": "string",
+			"default": ""
+		},
+		"priceNoticeAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"priceNoticeFontSize": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "ct-core",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": [
+		"file:./style-index.css",
+		"wp-block-table"
+	],
+	"render": "file:./render.php"
+}

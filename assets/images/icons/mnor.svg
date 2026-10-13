@@ -1,0 +1,11 @@
+<!-- filepath: /home/mnjorba/my-projects/wisart/code/packages/ct-core/assets/images/block-icons/mnor.svg -->
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path
+        d="M3 19V5l4 6 4-6v14M13 19V5l8 14V5"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+</svg>

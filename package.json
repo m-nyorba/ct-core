@@ -1,0 +1,47 @@
+{
+  "name": "ct-core",
+  "version": "1.0.0",
+  "description": "Premium WordPress plugin for theme extensions",
+  "author": "mnor",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://mnor.top",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnyorba/ct-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnyorba/ct-core/issues"
+  },
+  "keywords": [
+    "wordpress",
+    "wordpress-plugin",
+    "premium",
+    "theme-extension",
+    "fse"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm:dev:css\" \"npm:dev:blocks\"",
+    "dev:css": "postcss ./admin/assets/css/admin.css -o ./admin/assets/css/admin-built.css -w",
+    "dev:blocks": "wp-scripts start --blocks-manifest",
+    "start": "wp-scripts start --blocks-manifest",
+    "build": "npm run build:css && npm run build:blocks",
+    "build:css": "postcss ./admin/assets/css/admin.css -o ./admin/assets/css/admin-built.css && postcss ./admin/assets/css/admin.css -o ./admin/assets/css/admin-built.min.css --env production && prettier --write ./admin/assets/css/admin-built.css ./admin/assets/css/admin-built.min.css",
+    "build:blocks": "wp-scripts build --blocks-manifest",
+    "format": "wp-scripts format ./src",
+    "lint": "wp-scripts lint-js .",
+    "lint:css": "wp-scripts lint-style",
+    "lint:fix": "wp-scripts lint-js . --fix",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "clean": "rm -f ct-core.zip",
+    "package": "npm run build && npm run clean && zip -r ct-core.zip . -x \"*.git*\" \"*.github*\" \"*node_modules*\" \"*vendor/*\" \"*src/*\" \"package*.json\" \"*.md\" \"*.log\" \"*.map\" \"*.cache\" \".DS_Store\" \"Thumbs.db\" \"composer.*\" \"*.config.js\" \"tsconfig.json\" \".prettier*\" \".vscode/*\" \".editorconfig\" \".eslintrc\" \".distignore\" \".gitignore\" \"phpcs.xml*\" \"phpstan.neon\" \"pint.json\" \"phpunit.xml\" \".babelrc\" \".phpunit.result.cache\" \"tests/*\" \"docs/*\" \"*.zip\""
+  },
+  "devDependencies": {
+    "@wordpress/icons": "^18.0.0",
+    "swiper": "^14.3.0"
+  }
+}
