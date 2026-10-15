@@ -489,7 +489,7 @@ class Ct_Core_Admin {
 			return esc_html__( 'Unable to open uploaded file.', 'ct-core' );
 		}
 
-		$header = fgetcsv( $handle );
+		$header = fgetcsv( $handle, 0, ',', '"', '\\' );
 		if ( ! $header || count( $header ) < 7 ) {
 			fclose( $handle );
 			return esc_html__( 'Invalid CSV format.', 'ct-core' );
@@ -507,7 +507,7 @@ class Ct_Core_Admin {
 
 		$created   = 0;
 		$languages = $this->get_translation_languages();
-		while ( false !== ( $row = fgetcsv( $handle ) ) ) {
+		while ( false !== ( $row = fgetcsv( $handle, 0, ',', '"', '\\' ) ) ) {
 			if ( ! $row || empty( array_filter( $row ) ) ) {
 				continue;
 			}
